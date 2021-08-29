@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="lib/p5.js"></script>
+		<script src="lib/p5.dom.min.js"></script>
+		<script src="lib/p5.sound.min.js"></script>
+		<script src="lib/p5.play.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+		<script>
+			var firebaseConfig = {
+				apiKey: 'AIzaSyAZd9w9k2FVGpwj7ByvD2lrODVTqTPCt6g',
+				authDomain: 'diamond-chase-d810c.firebaseapp.com',
+				databaseURL: 'https://diamond-chase-d810c-default-rtdb.firebaseio.com',
+				projectId: 'diamond-chase-d810c',
+				storageBucket: 'diamond-chase-d810c.appspot.com',
+				messagingSenderId: '483793578825',
+				appId: '1:483793578825:web:80904ebe83108a7e688898',
+			};
+
+			firebase.initializeApp(firebaseConfig);
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script src="js/maze.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/player.js"></script>
+
+		<script src="sketch.js"></script>
+	</body>
+</html>
